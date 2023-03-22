@@ -1,0 +1,157 @@
+$primaryColor: #213F7D;
+$buttonColor: #38CAC9;
+.auth_right_div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  box-shadow: 0 12px 40px 0 rgba(143, 143, 143, 0.19);
+
+    align-items: center;
+}
+.auth_message{
+    font-weight: 800;
+    font-size: 45px;
+    color: $primaryColor;
+    margin: 0;
+}
+.auth_desc{
+    color: $primaryColor;
+    font-size: 20px;
+}
+.app_div_input{
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.app_input{
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    padding:10px;
+}
+.app_input:focus{
+    outline: none;
+}
+.auth_btn{
+    background-color: $buttonColor ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.show_btn{
+border:none;
+color: $buttonColor;
+background-color: transparent;
+font-size: 12px;
+margin-right: 15px;
+}
+.f_password{
+    color: $buttonColor;
+    font-size: 13px;
+    cursor: pointer;
+}
+.auth_left_div{
+
+}
+
+.search_div_input{
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.search_input{
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    padding:10px;
+}
+.search_input:focus{
+    outline: none;
+}
+.search_btn{
+    background-color: $buttonColor ;
+    border-radius:0 8px 8px 0;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}
+
+.nav_b{
+    background-color: white;
+  box-shadow: 0 12px 40px 0 rgba(198, 198, 198, 0.19);
+width: 100%;
+
+}
+.nav_left{
+    height: 10vh;
+display: flex;
+// justify-content: center;
+align-items: center;
+}
+.nav_right{
+    height: 10vh;
+display: flex;
+// justify-content: center;
+gap:20px;
+align-items: center;
+}
+.profile_img{
+    width: 50px;
+    border-radius: 50%;
+}
+//////////////////////////////////////////
+.sidebar{
+    background-color: white;
+    height: 90vh;
+    overflow-y: auto;
+}
+.dashboard_div{
+background-color: #FBFBFB;
+    // background-color: ;
+    height: 90vh;
+}
+.sidebar_item:hover{
+    background-color: #F3FCFC;
+    color: black;
+}
+
+.sidebar_item{
+    margin:0 ;
+    cursor: pointer;
+    color:grey;
+    padding: 5px 20px;
+    font-size: 13px;
+}
+.item_head{
+    margin:0 ;
+    font-size: 13px;
+    color:black;
+    padding: 5px 20px;
+}
+.active_sidebar_item{
+    background-color: #F3FCFC;
+    border-left: 5px solid #38CAC9;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    // background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bebebe; 
+  }
+  

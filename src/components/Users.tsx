@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Users() {
   return (
-    <div>
-      users
+    <div className='dashboard_div p-3'>
+      
     </div>
   )
 }
